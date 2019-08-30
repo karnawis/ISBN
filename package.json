@@ -1,0 +1,23 @@
+{
+  "name": "isbn",
+  "version": "1.0.0",
+  "description": "ISBN - International Standard Book Number --------------------------------------------- There are two ISBN standards: ISBN-10 and ISBN-13. Support for ISBN-13 is essential, whereas support for ISBN-10 is optional. Here are some valid examples of each:",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *_test.js --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karnawis/ISBN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karnawis/ISBN/issues"
+  },
+  "homepage": "https://github.com/karnawis/ISBN#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
