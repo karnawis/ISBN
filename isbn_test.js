@@ -16,8 +16,13 @@ describe("validateISBN()", () => {
     expect(sut.stringLenCheck(x)).to.equal(true);
   });
 
-  it("should check numbers of ISBN", () => {
-    //convert string to an array of integers
-    //expect(sut.checkNumbers(x).to.equal("[1,2,3,4,5,6,7,8,9,9]"));
+  it("should validate 10 digitas ISBN number", () => {
+    let isbnNumber = "0071389938";
+    expect(sut.validateIsbnNumber(isbnNumber)).to.equal(true);
+  });
+
+  it("should validate 13 digit ISBN number", () => {
+    let isbnNumber = "1";
+    expect(sut.validateIsbnNumber(isbnNumber)).to.equal(true);
   });
 });

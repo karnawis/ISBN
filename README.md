@@ -1,5 +1,12 @@
 # ISBN
 
+change ISBN number in isbn js to check
+`npm test`
+
+
+Next add ISBN 13 check
+Next add array of ISBN numbers to check or input field
+
 ISBN - International Standard Book Number
 ---------------------------------------------
 There are two ISBN standards: ISBN-10 and ISBN-13.
